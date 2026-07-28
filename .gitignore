@@ -1,0 +1,7 @@
+﻿# Installers are published as GitHub Release assets, never committed.
+*.msi
+*.exe
+*.apk
+*.deb
+*.dmg
+*.AppImage
