@@ -191,7 +191,9 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 | [NurPhoto](#nurphoto) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/nurphoto-v0.1.0) |
 | [NurMail](#nurmail) | Android app | 2026-07 | Kotlin, Compose | _TBD_ |
 | [NurMedia](#nurmedia) | Desktop app | 2026-07 | Tauri v2, Rust, ffmpeg | [Download](../../releases/tag/nurmedia-v0.1.0) |
+| [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | _TBD_ |
 | [HTTP Client](#http-client) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
+| [YuklabBar bot](#yuklabbar) | Telegram bot | 2022 → present | Python, yt-dlp | [@yuklabbar_bot](https://t.me/yuklabbar_bot) |
 | [Arabic Learning Platform](#arabic-learning-platform) | Web platform | 2023-12 → present | Angular, Node.js, MongoDB | [jumanazar.uz](https://jumanazar.uz) |
 
 ---
@@ -291,6 +293,40 @@ and pretty-printed JSON.
 - **Source** — private
 
 <!-- screenshots: screenshots/http-client/ -->
+
+---
+
+<a id="nurly"></a>
+## Nurly — Android short-video maker
+
+Turns images and audio into short vertical videos. Pick up to 30 images,
+reorder them and set each slide's duration, add background music clipped to
+length, and choose a 9:16, 1:1 or 16:9 canvas. Live preview runs through
+`CompositionPlayer` on the *same* composition the exporter muxes — so what you
+preview is what you export, not an approximation. Exports to MP4 with progress,
+then saves to the gallery or shares. Uzbek is the default language, English a
+translation.
+
+- **Built** — 2026-07
+- **Platforms** — Android (minSDK 26)
+- **Stack** — Kotlin, Jetpack Compose, Media3 Transformer
+- **Download** — APK: _TBD_
+- **Source** — private
+
+<!-- screenshots: screenshots/nurly/ -->
+
+---
+
+<a id="yuklabbar"></a>
+## YuklabBar — Telegram video/MP3 downloader
+
+Public Telegram bot: send a link, get the video or an MP3 back in the chat.
+Built on a Python download pipeline (`yt-dlp`) behind a FastAPI service, with
+optional start/end trimming so you can pull just a section of a long video.
+
+- **Built** — 2022 → present (live)
+- **Stack** — Python, yt-dlp, FastAPI
+- **Use it** — [@yuklabbar_bot](https://t.me/yuklabbar_bot)
 
 ---
 
