@@ -192,6 +192,7 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 | [NurMail](#nurmail) | Android app | 2026-07 | Kotlin, Compose | _TBD_ |
 | [NurMedia](#nurmedia) | Desktop app | 2026-07 | Tauri v2, Rust, ffmpeg | [Download](../../releases/tag/nurmedia-v0.1.0) |
 | [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | _TBD_ |
+| [Nur Player](#nur-player) | Android app | 2025-09 → 2026-07 | Java, AndroidX Media | _TBD_ |
 | [HTTP Client](#http-client) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
 | [YuklabBar bot](#yuklabbar) | Telegram bot | 2022 → present | Python, yt-dlp | [@yuklabbar_bot](https://t.me/yuklabbar_bot) |
 | [Damir Yo'l Chiptachi bot](#chiptachi) | Telegram bot | 2026 | Node.js, Telegram Bot API | [@damiryolchiptachi_bot](https://t.me/damiryolchiptachi_bot) |
@@ -315,6 +316,26 @@ translation.
 - **Source** — private
 
 <!-- screenshots: screenshots/nurly/ -->
+
+---
+
+<a id="nur-player"></a>
+## Nur Player — Android media player
+
+Plays the audio already on your device. Tracks are read straight from
+MediaStore, so there is no library import step and no account. Playback runs in
+a foreground service that survives leaving the app: full transport controls in
+the notification and on the lock screen, a play queue with next/previous, 10-second
+skip forward and back, and media-button handling for Bluetooth and wired
+headsets.
+
+- **Built** — 2025-09 → 2026-07 · **Version** — 1.0
+- **Platforms** — Android 10+ (minSDK 29, targets SDK 36)
+- **Stack** — Java, AndroidX Media (`MediaSessionCompat`), Navigation component
+- **Download** — APK: _TBD_
+- **Source** — private
+
+<!-- screenshots: screenshots/nur-player/ -->
 
 ---
 
