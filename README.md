@@ -334,9 +334,10 @@ back, and media-button handling so play/pause from Bluetooth or wired earbuds
 keeps working after the app is swiped away.
 
 - **Built** — 2025-09 → 2026-07 · **Version** — 1.0
-- **Platforms** — Android 10+ (minSDK 29, targets SDK 36)
+- **Platforms** — Android 10+ (minSDK 29, targets SDK 36) · package `uz.jumanazar.nurplayer`
 - **Stack** — Java, AndroidX Media (`MediaSessionCompat`), Navigation component
-- **Download** — [NurPlayer-v1.0-release.apk](../../releases/download/nur-player-v1.0/NurPlayer-v1.0-release.apk) — ~11 MB, signed release build
+- **Download** — [NurPlayer-v1.0-release.apk](../../releases/download/nur-player-v1.0/NurPlayer-v1.0-release.apk) — ~11 MB, signed release build.
+  Sideloading needs "install from unknown sources" enabled for your browser or file manager.
 - **Source** — private
 
 <!-- screenshots: screenshots/nur-player/ -->
