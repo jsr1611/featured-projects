@@ -25,14 +25,14 @@ plus the tools that came out of them.
 |---|---|---|---|
 | [AI automation for enterprise ERP](#ai-erp) | PromDav AI Solutions – David E&C | 2026-06 → present | Java, Spring Boot, LLM integration |
 | [TheHelloApp](#thehelloapp) | Toptal (contract) | 2025-02 → 2025-12 | Java, Spring Boot, SQL, microservices |
+| [MSIS Cloud Solution](#msiscloud) | MSIS Lab | 2024-09 → 2026-04 | Next.js, React, Django REST, PostgreSQL |
 | [Hyundai connected car data integration](#hyundai) | FPT Software Korea → Hyundai AutoEver America | 2024-05 → 2025-03 | Java 17/21, Spring Boot, Kafka, Kubernetes |
 | [BUBE Portal](#bube) | AttoLabs EU | 2023-08 → 2024-04 | Kotlin, Spring Boot, Angular |
-| [VisitSeoul CMS](#visitseoul) | SweetK Co., Ltd. | 2022 | Java, Spring Boot |
 | [Seoul Danurim](#danurim) | SweetK Co., Ltd. | 2022 – 2023 | Java, Spring Boot, CMS |
-| [MSIS Cloud Solution](#msiscloud) | MSIS Lab | 2024-09 → 2026-04 | Next.js, React, Django REST, PostgreSQL |
+| [VisitSeoul CMS](#visitseoul) | SweetK Co., Ltd. | 2022 | Java, Spring Boot |
 | [pdf2json](#pdf2json) | Research tooling | 2022 | Python, FastAPI |
-| [Efficient object labeling tool](#labeling-tool) | MSIS Lab, Chungbuk Nat'l Univ. | 2020 – 2022 | Python, OpenCV, YOLOv3 |
 | [Intelligent Monitoring Solution](#monitoring) | DLIT Co., Ltd. | 2021 | C#, MS SQL, IoT |
+| [Efficient object labeling tool](#labeling-tool) | MSIS Lab, Chungbuk Nat'l Univ. | 2020 – 2022 | Python, OpenCV, YOLOv3 |
 
 ---
 
@@ -65,6 +65,19 @@ guidelines and cut production hotfixes.
 - **Period** — 2025-02 → 2025-12 · **Role** — Senior Software Engineer (contract)
 - **Stack** — Java, Spring Boot, SQL tuning, microservices
 - **Link** — [thehelloapp.com](https://thehelloapp.com)
+
+---
+
+<a id="msiscloud"></a>
+## MSIS Cloud Solution
+
+Cloud platform for [MSIS Lab](https://www.msislab.com/): a Next.js/React
+frontend over a Django REST Framework backend on PostgreSQL, with documented
+Open API endpoints and a versioned database schema.
+
+- **Period** — 2024-09 → 2026-04
+- **Stack** — Next.js, React, JavaScript, SCSS · Django REST Framework, PostgreSQL
+- **Link** — source: private (`msiscloud_solution`)
 
 ---
 
@@ -101,19 +114,6 @@ JUnit and Mockito.
 
 ---
 
-<a id="visitseoul"></a>
-## VisitSeoul CMS — [visitseoul.net](https://VisitSeoul.net)
-
-Content management backend for Seoul's official tourism portal, built at
-[SweetK Co., Ltd.](https://www.sweetk.co.kr/) Backend APIs and admin features
-for editors publishing multilingual tourism content.
-
-- **Period** — 2022 · **Role** — Software Engineer
-- **Stack** — Java, Spring Boot
-- **Links** — live: [visitseoul.net](https://VisitSeoul.net) · source: private (`visit_seoul_cms`)
-
----
-
 <a id="danurim"></a>
 ## Seoul Danurim — [seouldanurim.net](https://seouldanurim.net)
 
@@ -127,16 +127,16 @@ at SweetK Co., Ltd. alongside VisitSeoul.
 
 ---
 
-<a id="msiscloud"></a>
-## MSIS Cloud Solution
+<a id="visitseoul"></a>
+## VisitSeoul CMS — [visitseoul.net](https://VisitSeoul.net)
 
-Cloud platform for [MSIS Lab](https://www.msislab.com/): a Next.js/React
-frontend over a Django REST Framework backend on PostgreSQL, with documented
-Open API endpoints and a versioned database schema.
+Content management backend for Seoul's official tourism portal, built at
+[SweetK Co., Ltd.](https://www.sweetk.co.kr/) Backend APIs and admin features
+for editors publishing multilingual tourism content.
 
-- **Period** — 2024-09 → 2026-04
-- **Stack** — Next.js, React, JavaScript, SCSS · Django REST Framework, PostgreSQL
-- **Link** — source: private (`msiscloud_solution`)
+- **Period** — 2022 · **Role** — Software Engineer
+- **Stack** — Java, Spring Boot
+- **Links** — live: [visitseoul.net](https://VisitSeoul.net) · source: private (`visit_seoul_cms`)
 
 ---
 
@@ -153,6 +153,19 @@ generated Open API documentation.
 
 ---
 
+<a id="monitoring"></a>
+## Intelligent Monitoring Solution
+
+Data collection application bundle for IoT sensor devices — real-time
+collection and visualization, deployed in semiconductor manufacturing clean
+rooms at [DLIT Co., Ltd.](https://www.dlit.co.kr/)
+
+- **Period** — 2021 · **Role** — Software Engineer
+- **Stack** — C#, Java, MS SQL
+- **Link** — [github.com/jsr1611/Intelligent_Monitoring_Solution](https://github.com/jsr1611/Intelligent_Monitoring_Solution)
+
+---
+
 <a id="labeling-tool"></a>
 ## Efficient object labeling tool
 
@@ -164,19 +177,6 @@ dataset.
 - **Period** — 2020 – 2022 · **Context** — [MSIS Lab](https://www.msislab.com/)
 - **Stack** — Python, OpenCV, YOLOv3
 - **Link** — [github.com/jsr1611/efficient_object_labeling_tool](https://github.com/jsr1611/efficient_object_labeling_tool)
-
----
-
-<a id="monitoring"></a>
-## Intelligent Monitoring Solution
-
-Data collection application bundle for IoT sensor devices — real-time
-collection and visualization, deployed in semiconductor manufacturing clean
-rooms at [DLIT Co., Ltd.](https://www.dlit.co.kr/)
-
-- **Period** — 2021 · **Role** — Software Engineer
-- **Stack** — C#, Java, MS SQL
-- **Link** — [github.com/jsr1611/Intelligent_Monitoring_Solution](https://github.com/jsr1611/Intelligent_Monitoring_Solution)
 
 ---
 
