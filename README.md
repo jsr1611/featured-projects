@@ -1,11 +1,16 @@
-# Featured Projects — Jumanazar Said Ruzim
+# Featured Projects — Jumanazar Saidov
 
-Selected shipped work: desktop and mobile products, plus the web platform and
-services behind them. Most source repos are private — links point to the live
-product, a release build, or a demo.
+Backend engineer (Java · Spring Boot · Microservices), Seoul, South Korea.
+Below is selected shipped work: desktop and mobile products, plus the web
+platform and services behind them. Most source repos are private — links point
+to the live product, a release build, or a demo.
+
+**CV** — [JumanazarSaidov_CV_2026.pdf](JumanazarSaidov_CV_2026.pdf)
 
 **Contact** — [GitHub @jsr1611](https://github.com/jsr1611) ·
-[Telegram @jsr1611](https://t.me/jsr1611)
+[LinkedIn](https://linkedin.com/in/jsr1611) ·
+[Telegram @jsr1611](https://t.me/jsr1611) ·
+jumanazar.saidov@gmail.com
 
 | Project | Type | Built | Stack | Get it |
 |---|---|---|---|---|
