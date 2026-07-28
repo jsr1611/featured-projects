@@ -191,7 +191,7 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 | [NurPhoto](#nurphoto) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/nurphoto-v0.1.0) |
 | [NurMail](#nurmail) | Android app | 2026-07 | Kotlin, Compose | _TBD_ |
 | [NurMedia](#nurmedia) | Desktop app | 2026-07 | Tauri v2, Rust, ffmpeg | [Download](../../releases/tag/nurmedia-v0.1.0) |
-| [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | _TBD_ |
+| [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | [Download APK](../../releases/tag/nurly-v0.1.14) |
 | [Nur Player](#nur-player) | Android app | 2025-09 → 2026-07 | Java, AndroidX Media | [Download APK](../../releases/tag/nur-player-v1.0) |
 | [HTTP Client](#http-client) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
 | [YuklabBar bot](#yuklabbar) | Telegram bot | 2022 → present | Python, yt-dlp | [@yuklabbar_bot](https://t.me/yuklabbar_bot) |
@@ -309,10 +309,11 @@ preview is what you export, not an approximation. Exports to MP4 with progress,
 then saves to the gallery or shares. Uzbek is the default language, English a
 translation.
 
-- **Built** — 2026-07
-- **Platforms** — Android (minSDK 26)
+- **Built** — 2026-07 · **Version** — 0.1.14
+- **Platforms** — Android 8+ (minSDK 26) · package `uz.jumanazar.nurly`
 - **Stack** — Kotlin, Jetpack Compose, Media3 Transformer
-- **Download** — APK: _TBD_
+- **Download** — [nurly-0.1.14.apk](../../releases/download/nurly-v0.1.14/nurly-0.1.14.apk) — ~11 MB, signed release build.
+  Sideloading needs "install from unknown sources" enabled.
 - **Source** — private
 
 <!-- screenshots: screenshots/nurly/ -->
