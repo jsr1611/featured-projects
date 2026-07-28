@@ -398,3 +398,8 @@ boilerplate starters are omitted.
 **Desktop** Tauri v2, Rust · **Mobile** Kotlin, Jetpack Compose ·
 **Web** Angular, React, TypeScript · **Backend** Node.js, Spring Boot, Java,
 Python · **Data** MongoDB, PostgreSQL · **Media** ffmpeg, Media3
+
+**AI / LLM integration** — Claude, ChatGPT, Gemini, Qwen and other hosted
+models, plus self-hosted models via Ollama for on-premise and privacy-sensitive
+workloads. Prompt design, structured/tool-calling output, retrieval over
+enterprise documents, and wiring all of it into existing backend services.
