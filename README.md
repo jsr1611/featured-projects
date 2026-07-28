@@ -192,7 +192,7 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 | [NurMail](#nurmail) | Android app | 2026-07 | Kotlin, Compose | _TBD_ |
 | [NurMedia](#nurmedia) | Desktop app | 2026-07 | Tauri v2, Rust, ffmpeg | [Download](../../releases/tag/nurmedia-v0.1.0) |
 | [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | _TBD_ |
-| [Nur Player](#nur-player) | Android app | 2025-09 → 2026-07 | Java, AndroidX Media | _TBD_ |
+| [Nur Player](#nur-player) | Android app | 2025-09 → 2026-07 | Java, AndroidX Media | [Download APK](../../releases/tag/nur-player-v1.0) |
 | [HTTP Client](#http-client) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
 | [YuklabBar bot](#yuklabbar) | Telegram bot | 2022 → present | Python, yt-dlp | [@yuklabbar_bot](https://t.me/yuklabbar_bot) |
 | [Damir Yo'l Chiptachi bot](#chiptachi) | Telegram bot | 2026 | Node.js, Telegram Bot API | [@damiryolchiptachi_bot](https://t.me/damiryolchiptachi_bot) |
@@ -323,16 +323,20 @@ translation.
 ## Nur Player — Android media player
 
 Plays the audio already on your device. Tracks are read straight from
-MediaStore, so there is no library import step and no account. Playback runs in
-a foreground service that survives leaving the app: full transport controls in
-the notification and on the lock screen, a play queue with next/previous, 10-second
-skip forward and back, and media-button handling for Bluetooth and wired
-headsets.
+MediaStore — filtered to real music, not notification blips — with folder,
+artist and genre filters to narrow the list. No account, no library import, no
+sync.
+
+Playback runs in a foreground service that survives leaving the app: transport
+controls in the notification and on the lock screen backed by a
+`MediaSessionCompat`, a queue with next/previous, 10-second skip forward and
+back, and media-button handling so play/pause from Bluetooth or wired earbuds
+keeps working after the app is swiped away.
 
 - **Built** — 2025-09 → 2026-07 · **Version** — 1.0
 - **Platforms** — Android 10+ (minSDK 29, targets SDK 36)
 - **Stack** — Java, AndroidX Media (`MediaSessionCompat`), Navigation component
-- **Download** — APK: _TBD_
+- **Download** — [NurPlayer-v1.0-release.apk](../../releases/download/nur-player-v1.0/NurPlayer-v1.0-release.apk) — ~11 MB, signed release build
 - **Source** — private
 
 <!-- screenshots: screenshots/nur-player/ -->
