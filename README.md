@@ -195,7 +195,7 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 | [HTTP Client](#http-client) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
 | [YuklabBar bot](#yuklabbar) | Telegram bot | 2022 → present | Python, yt-dlp | [@yuklabbar_bot](https://t.me/yuklabbar_bot) |
 | [Damir Yo'l Chiptachi bot](#chiptachi) | Telegram bot | 2026 | Node.js, Telegram Bot API | [@damiryolchiptachi_bot](https://t.me/damiryolchiptachi_bot) |
-| [Arabic Learning Platform](#arabic-learning-platform) | Web platform | 2023-12 → present | Angular, Node.js, MongoDB | [jumanazar.uz](https://jumanazar.uz) |
+| [jumanazar.uz](#arabic-learning-platform) | Web platform | 2023-12 → present | Angular, Node.js, MongoDB | [jumanazar.uz](https://jumanazar.uz) |
 
 ---
 
@@ -365,15 +365,29 @@ never double-charge.
 ---
 
 <a id="arabic-learning-platform"></a>
-## Arabic Learning Platform — [jumanazar.uz](https://jumanazar.uz)
+## jumanazar.uz — Arabic learning + personal tools platform
 
-A web platform for learning Arabic: dictionary, lessons and learner tooling,
-fully localized in Uzbek and Arabic. The Angular frontend is deployed on
-Vercel; the REST backend — Arabic dictionary data, JWT authentication, MongoDB
-persistence and supporting integrations — runs on Render.
+Started as a web platform for learning Arabic — dictionary, word lists and
+tests, localized in Uzbek and Arabic — and grew into a personal toolbox around
+it, all behind one account:
+
+- **Arabic dictionary & tests** — word entries, lists and self-testing.
+- **Personal finance** — debt and repayment tracking: what is owed, to whom,
+  and how each repayment moves the balance.
+- **Overtime & wage calculator** — computes extra-hours pay under the **Korean
+  labour system**. Rest days come from the user's contracted work days, and
+  public holidays are detected automatically through the data.go.kr holiday
+  API, including the lunar-calendar ones (설날, 추석, 부처님오신날) and
+  substitute holidays. The integration is optional by design: without a key the
+  API reports that the lookup is unavailable rather than silently returning an
+  empty holiday list, and the user ticks rest days by hand.
+- **Utilities** — media downloader and a GitHub repository manager.
+
+The Angular frontend is deployed on Vercel; the Node.js/MongoDB REST backend
+with JWT authentication runs on Render.
 
 - **Built** — 2023-12 → present (actively maintained)
-- **Stack** — Angular (TypeScript) · Node.js, MongoDB, JWT
+- **Stack** — Angular (TypeScript) · Node.js, MongoDB, JWT · data.go.kr holiday API
 - **Links** — live: [jumanazar.uz](https://jumanazar.uz)
 
 <!-- screenshots: screenshots/jumanazar/ -->
