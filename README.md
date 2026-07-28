@@ -372,8 +372,11 @@ tests, localized in Uzbek and Arabic — and grew into a personal toolbox around
 it, all behind one account:
 
 - **Arabic dictionary & tests** — word entries, lists and self-testing.
-- **Personal finance** — debt and repayment tracking: what is owed, to whom,
-  and how each repayment moves the balance.
+- **Debt tracker** — money owed in both directions, per person and per
+  currency (KRW and USD held separately, never summed across rates), with
+  running balances, repayment due dates and a breakdown chart.
+- **Monthly expense manager** — expenses by category and month with a total
+  and a category breakdown chart, entered in the currency of your choice.
 - **Overtime & wage calculator** — computes extra-hours pay under the **Korean
   labour system**. Rest days come from the user's contracted work days, and
   public holidays are detected automatically through the data.go.kr holiday
@@ -390,7 +393,15 @@ with JWT authentication runs on Render.
 - **Stack** — Angular (TypeScript) · Node.js, MongoDB, JWT · data.go.kr holiday API
 - **Links** — live: [jumanazar.uz](https://jumanazar.uz)
 
-<!-- screenshots: screenshots/jumanazar/ -->
+<p>
+  <img src="screenshots/jumanazar/overtime-tracker.png" width="47%" alt="Overtime tracker: monthly hours, paid vs unpaid overtime, per-day log">
+  <img src="screenshots/jumanazar/debt-tracker.png" width="47%" alt="Debt tracker: balances per person and currency">
+</p>
+<p>
+  <img src="screenshots/jumanazar/expenses.png" width="60%" alt="Monthly expense manager with category breakdown">
+</p>
+
+<sub>Figures and personal names in these screenshots are redacted.</sub>
 
 ---
 
