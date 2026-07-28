@@ -189,7 +189,7 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 | Product | Type | Built | Stack | Get it |
 |---|---|---|---|---|
 | [NurPhoto](#nurphoto) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/nurphoto-v0.1.0) |
-| [NurMail](#nurmail) | Android app | 2026-07 | Kotlin, Compose | _TBD_ |
+| [NurMail](#nurmail) | Android app | 2026-07 | Kotlin, Compose | [Download APK](../../releases/tag/nurmail-v1.0.0) |
 | [NurMedia](#nurmedia) | Desktop app | 2026-07 | Tauri v2, Rust, ffmpeg | [Download](../../releases/tag/nurmedia-v0.1.0) |
 | [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | [Download APK](../../releases/tag/nurly-v0.1.14) |
 | [Nur Player](#nur-player) | Android app | 2025-09 → 2026-07 | Java, AndroidX Media | [Download APK](../../releases/tag/nur-player-v1.0) |
@@ -246,10 +246,11 @@ phone from filling up, while messages moved into a folder are kept forever.
 Five languages: Uzbek (default), English, Russian, Arabic (RTL), Korean.
 Credentials live in `EncryptedSharedPreferences` behind the Android Keystore.
 
-- **Built** — 2026-07
-- **Platforms** — Android
+- **Built** — 2026-07 · **Version** — 1.0.0
+- **Platforms** — Android 8+ (minSDK 26) · package `uz.jumanazar.nurmail`
 - **Stack** — Kotlin, Jetpack Compose
-- **Download** — signed APK: _TBD_ (build it and I'll attach it to a release)
+- **Download** — [NurMail-v1.0.0.apk](../../releases/download/nurmail-v1.0.0/NurMail-v1.0.0.apk) — ~13 MB, signed release build.
+  Gmail/Outlook/Yahoo require an app password rather than the account password.
 - **Source** — private
 
 <!-- screenshots: screenshots/nurmail/ -->
