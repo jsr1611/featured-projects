@@ -112,7 +112,7 @@ and pretty-printed JSON.
 - **Built** — 2026-07
 - **Platforms** — Windows
 - **Stack** — Tauri v2, Rust (`reqwest`), WebView2
-- **Download** — [Windows installer (.exe)](../../releases/download/http-client-v0.1.0/HTTP.Client_0.1.0_x64-setup.exe) — v0.1.0, ~2 MB
+- **Download** — [Windows installer (.exe)](../../releases/download/http-client-v0.1.0/HTTP-Client_0.1.0_x64-setup.exe) — v0.1.0, ~2 MB
 - **Source** — private
 
 <!-- screenshots: screenshots/http-client/ -->
