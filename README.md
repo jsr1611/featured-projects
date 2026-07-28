@@ -194,6 +194,7 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 | [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | _TBD_ |
 | [HTTP Client](#http-client) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
 | [YuklabBar bot](#yuklabbar) | Telegram bot | 2022 → present | Python, yt-dlp | [@yuklabbar_bot](https://t.me/yuklabbar_bot) |
+| [Damir Yo'l Chiptachi bot](#chiptachi) | Telegram bot | 2026 | Node.js, Telegram Bot API | [@damiryolchiptachi_bot](https://t.me/damiryolchiptachi_bot) |
 | [Arabic Learning Platform](#arabic-learning-platform) | Web platform | 2023-12 → present | Angular, Node.js, MongoDB | [jumanazar.uz](https://jumanazar.uz) |
 
 ---
@@ -327,6 +328,39 @@ optional start/end trimming so you can pull just a section of a long video.
 - **Built** — 2022 → present (live)
 - **Stack** — Python, yt-dlp, FastAPI
 - **Use it** — [@yuklabbar_bot](https://t.me/yuklabbar_bot)
+
+---
+
+<a id="chiptachi"></a>
+## Damir Yo'l Chiptachi — Telegram train ticket bot
+
+Searches, books and pays for **eticket.railway.uz** train tickets from inside
+Telegram. Multi-tenant: each user runs `/setup` once to store — encrypted —
+their own railway.uz login, passenger identity and card. Then they search a
+route and date, get every train with live seat counts and fares per class, pick
+one, confirm the OTP from their bank SMS in the chat, and the e-ticket PDF
+comes back in the same conversation.
+
+Train search needs no setup at all: railway.uz validates CSRF by double-submit,
+so the bot mints its own token and queries the timetable with no browser, no
+login and no cookie export. Booking and payment run on a short-lived JWT from
+the user's own login, with transient-failure handling designed so a retry can
+never double-charge.
+
+> **Status: running in test mode (test rejim).** The full search → book → pay →
+> OTP → PDF flow works end to end, but it is not yet open for general public
+> use.
+
+- **Built** — 2026
+- **Stack** — Node.js, Telegram Bot API, encrypted per-user credential store
+- **Use it** — [@damiryolchiptachi_bot](https://t.me/damiryolchiptachi_bot)
+- **Source** — private
+
+<p>
+  <img src="screenshots/damiryolchiptachi_bot/search results.png" width="46%" alt="Search results with seat counts and fares">
+  <img src="screenshots/damiryolchiptachi_bot/e-ticket payment_booking_confirmation.jpg" width="26%" alt="OTP confirmation and ticket delivery">
+  <img src="screenshots/damiryolchiptachi_bot/e-ticket.jpg" width="26%" alt="Delivered e-ticket PDF">
+</p>
 
 ---
 
