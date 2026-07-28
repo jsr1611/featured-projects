@@ -12,6 +12,8 @@ to the live product, a release build, or a demo.
 [Telegram @jsr1611](https://t.me/jsr1611) ·
 jumanazar.saidov@gmail.com
 
+## Featured projects
+
 | Project | Type | Built | Stack | Get it |
 |---|---|---|---|---|
 | [NurPhoto](#nurphoto) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/nurphoto-v0.1.0) |
@@ -137,6 +139,91 @@ persistence and supporting integrations — runs on Render.
 - **Links** — live: [jumanazar.uz](https://jumanazar.uz)
 
 <!-- screenshots: screenshots/jumanazar/ -->
+
+---
+
+# Other personal projects
+
+Public repositories on [github.com/jsr1611](https://github.com/jsr1611) —
+smaller apps, experiments and coursework, grouped by area. Forks and
+boilerplate starters are omitted.
+
+### Backend & APIs — Java / Kotlin / Spring
+
+| Project | Year | What it is |
+|---|---|---|
+| [wallet_transfer_api](https://github.com/jsr1611/wallet_transfer_api) | 2026 | Wallet-to-wallet money transfer REST API |
+| [community_forum_microservice](https://github.com/jsr1611/community_forum_microservice) | 2021 | Forum microservice for an LMS platform |
+| [Spring-Cloud-MSA](https://github.com/jsr1611/Spring-Cloud-MSA) | 2022 | Spring Cloud microservice architecture in Kotlin |
+| [app-online-market](https://github.com/jsr1611/app-online-market) | 2021 | eCommerce web service |
+| [app-green-shop](https://github.com/jsr1611/app-green-shop) | 2022 | Online plant shop backend |
+| [houzing-app](https://github.com/jsr1611/houzing-app) | 2023 | Real-estate listing application |
+| [online-test-app](https://github.com/jsr1611/online-test-app) | 2021 | Online testing / quiz application |
+| [StudentInfoSystem](https://github.com/jsr1611/StudentInfoSystem) | 2023 | Student information management system |
+| [HR-Application-capstone-project](https://github.com/jsr1611/HR-Application-capstone-project) | 2021 | HR management capstone project |
+| [ProductManagement](https://github.com/jsr1611/ProductManagement) | 2021 | Product catalogue management service |
+| [CurrencyRateCheckerAppBackend](https://github.com/jsr1611/CurrencyRateCheckerAppBackend) | 2022 | Currency rate checker API |
+
+### Web & frontend
+
+| Project | Year | What it is |
+|---|---|---|
+| [jsr1611.github.io](https://github.com/jsr1611/jsr1611.github.io) | 2024 | Personal web page |
+| [gui-frontend-react](https://github.com/jsr1611/gui-frontend-react) | 2024 | React GUI frontend |
+| [react-practice](https://github.com/jsr1611/react-practice) | 2026 | React project standard / patterns |
+| [CurrencyRateCheckerApp](https://github.com/jsr1611/CurrencyRateCheckerApp) | 2022 | Vue frontend for the currency rate checker |
+| [Move-Planner-App](https://github.com/jsr1611/Move-Planner-App) | 2023 | Moving planner in vanilla JS with jQuery + AJAX |
+| [web-development-projects](https://github.com/jsr1611/web-development-projects) | 2023 | Assorted web development projects |
+| [zoom](https://github.com/jsr1611/zoom) | 2022 | Video-call app experiment |
+
+### Desktop, IoT & industrial data
+
+| Project | Year | What it is |
+|---|---|---|
+| [Sensor-Management-Application](https://github.com/jsr1611/Sensor-Management-Application) | 2026 | Modbus RTU collector for temperature, humidity and particle data into MS SQL |
+| [Intelligent_Monitoring_Solution](https://github.com/jsr1611/Intelligent_Monitoring_Solution) | 2024 | IoT sensor data collection and visualization bundle |
+| [VisualizerApp_CSharp_Winform](https://github.com/jsr1611/VisualizerApp_CSharp_Winform) | 2021 | WinForms visualizer for sensor data in MS SQL |
+| [CrossPlatformDataCollectorApp](https://github.com/jsr1611/CrossPlatformDataCollectorApp) | 2021 | Cross-platform data collection client |
+| [ExcelApp](https://github.com/jsr1611/ExcelApp) | 2019 | Excel-like app: reads CSV, saves XLS |
+| [explorer-style-winapp](https://github.com/jsr1611/explorer-style-winapp) | 2019 | Explorer-style Windows Forms application |
+
+### Android
+
+| Project | Year | What it is |
+|---|---|---|
+| [KirimChiqim](https://github.com/jsr1611/KirimChiqim) | 2023 | Personal income/expense tracker |
+| [MusicPlayer](https://github.com/jsr1611/MusicPlayer) | 2021 | Android music player |
+| [Logging](https://github.com/jsr1611/Logging) | 2021 | Android logging practice app |
+
+### Python, ML & computer vision
+
+| Project | Year | What it is |
+|---|---|---|
+| [efficient_object_labeling_tool](https://github.com/jsr1611/efficient_object_labeling_tool) | 2023 | Object annotation tool built on YOLOv3 |
+| [ML-Web-App](https://github.com/jsr1611/ML-Web-App) | 2023 | TensorFlow-based ML model web app |
+| [Thumbnail_Generator_Py](https://github.com/jsr1611/Thumbnail_Generator_Py) | 2022 | Generates thumbnails from videos stored in MySQL |
+| [ImgProc](https://github.com/jsr1611/ImgProc) | 2020 | Image processing with C++ and Qt |
+| [django-app](https://github.com/jsr1611/django-app) · [django-pagesapp](https://github.com/jsr1611/django-pagesapp) | 2022 | Django web app experiments |
+
+### Bots & small utilities
+
+| Project | Year | What it is |
+|---|---|---|
+| [xorazm-taomlar-bot](https://github.com/jsr1611/xorazm-taomlar-bot) | 2022 | Telegram bot for Khorezm cuisine recipes |
+| [CurrencyConverterApp](https://github.com/jsr1611/CurrencyConverterApp) | 2022 | Currency converter |
+| [CalculatorApp_RomanArabicEnabled](https://github.com/jsr1611/CalculatorApp_RomanArabicEnabled) | 2021 | Calculator handling both Roman and Arabic numerals |
+| [TicTacToeApplication](https://github.com/jsr1611/TicTacToeApplication) | 2021 | Tic-tac-toe game |
+
+### Algorithms & practice
+
+| Project | Year | What it is |
+|---|---|---|
+| [DS-and-Algo-Practice](https://github.com/jsr1611/DS-and-Algo-Practice) | 2026 | Data structures and algorithms practice |
+| [Java-Practice](https://github.com/jsr1611/Java-Practice) | 2023 | Java, web and DBMS concepts for interviews |
+| [JavaPracticeSolutions](https://github.com/jsr1611/JavaPracticeSolutions) | 2021 | General Java / DSA solutions |
+| [Data-Structures-And-Algorithms-Udacity](https://github.com/jsr1611/Data-Structures-And-Algorithms-Udacity) | 2021 | Udacity DSA nanodegree solutions |
+| [OOP-practice](https://github.com/jsr1611/OOP-practice) | 2020 | OOP fundamentals in C# |
+| [c-programming-practice](https://github.com/jsr1611/c-programming-practice) | 2020 | C programming practice |
 
 ---
 
