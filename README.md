@@ -188,15 +188,15 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 
 | Product | Type | Built | Stack | Get it |
 |---|---|---|---|---|
-| [NurPhoto](#nurphoto) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/nurphoto-v0.1.0) |
-| [NurMail](#nurmail) | Android app | 2026-07 | Kotlin, Compose | [Download APK](../../releases/tag/nurmail-v1.0.0) |
-| [NurMedia](#nurmedia) | Desktop app | 2026-07 | Tauri v2, Rust, ffmpeg | [Download](../../releases/tag/nurmedia-v0.1.0) |
-| [Nurly](#nurly) | Android app | 2026-07 | Kotlin, Compose, Media3 | [Download APK](../../releases/tag/nurly-v0.1.14) |
-| [Nur Player](#nur-player) | Android app | 2025-09 → 2026-07 | Java, AndroidX Media | [Download APK](../../releases/tag/nur-player-v1.0) |
-| [HTTP Client](#http-client) | Desktop app | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
+| [NurPhoto](#nurphoto) | Desktop | 2026-07 → 2026-08 | Tauri v2, Rust | [Download](../../releases/tag/nurphoto-v0.5.0) |
+| [NurMail](#nurmail) | Android | 2026-07 | Kotlin, Compose | [Download APK](../../releases/tag/nurmail-v1.0.0) |
+| [NurMedia](#nurmedia) | Desktop | 2026-07 | Tauri v2, Rust, ffmpeg | [Download](../../releases/tag/nurmedia-v0.1.0) |
+| [Nurly](#nurly) | Android | 2026-07 | Kotlin, Compose, Media3 | [Download APK](../../releases/tag/nurly-v0.1.14) |
+| [Nur Player](#nur-player) | Android | 2025-09 → 2026-07 | Java, AndroidX Media | [Download APK](../../releases/tag/nur-player-v1.0) |
+| [HTTP Client](#http-client) | Desktop | 2026-07 | Tauri v2, Rust | [Download](../../releases/tag/http-client-v0.1.0) |
 | [YuklabBar bot](#yuklabbar) | Telegram bot | 2022 → present | Python, yt-dlp | [@yuklabbar_bot](https://t.me/yuklabbar_bot) |
 | [Damir Yo'l Chiptachi bot](#chiptachi) | Telegram bot | 2026 | Node.js, Telegram Bot API | [@damiryolchiptachi_bot](https://t.me/damiryolchiptachi_bot) |
-| [jumanazar.uz](#arabic-learning-platform) | Web platform | 2023-12 → present | Angular, Node.js, MongoDB | [jumanazar.uz](https://jumanazar.uz) |
+| [jumanazar.uz](#arabic-learning-platform) | Web | 2023-12 → present | Angular, Node.js, MongoDB | [jumanazar.uz](https://jumanazar.uz) |
 
 ---
 
@@ -206,20 +206,35 @@ SmartScreen may warn on first run — choose **More info → Run anyway**.
 <img src="assets/nurphoto.png" alt="NurPhoto icon" width="96" align="right">
 
 Everyday photo editing plus compliant **ID, passport and visa photos**. Open,
-straighten, rotate, flip, crop with aspect presets, adjust tone, sharpen, and
-export with real control over pixel size, DPI and file size.
+straighten, rotate, flip, crop with aspect presets, adjust tone and colour,
+sharpen, and export with real control over pixel size, DPI and file size.
+
+**Background removal** replaces a creased sheet or a cluttered wall with the
+plain white a document photo needs — automatically, or by drawing round the
+subject yourself. Either way the edge is solved against the sampled background
+colour rather than cut along a traced outline, so hair stays soft, and the
+result is a mask you can correct by hand afterwards.
 
 Document presets lock the frame, configure the whole export (pixels, DPI, byte
 ceiling, background), position the face automatically against the spec's
 guides, and report compliance afterwards. Print sheets tile the photo at exact
 physical size. Everything runs locally — identity documents never leave the
-machine: no upload, no account, no server.
+machine: no upload, no account, no server. Face detection and background
+removal use models compiled into the binary, so nothing is downloaded at
+runtime either.
 
-- **Built** — 2026-07
-- **Platforms** — Windows, Linux, macOS
-- **Stack** — Tauri v2, Rust, HTML/JS in the system WebView
-- **Download** — [Windows installer (.exe)](../../releases/download/nurphoto-v0.1.0/NurPhoto_0.1.0_x64-setup.exe) ·
-  [MSI](../../releases/download/nurphoto-v0.1.0/NurPhoto_0.1.0_x64_en-US.msi) — v0.1.0, ~6 MB
+- **Built** — 2026-07 → 2026-08
+- **Platforms** — Windows, macOS (Apple Silicon), Linux
+- **Stack** — Tauri v2, Rust, HTML/JS in the system WebView, ONNX Runtime
+- **Interface** — Uzbek, English, Russian, Arabic, Korean
+- **Download** — v0.5.0
+  - Windows — [installer (.exe)](../../releases/download/nurphoto-v0.5.0/NurPhoto_0.5.0_x64-setup.exe) 11 MB ·
+    [MSI](../../releases/download/nurphoto-v0.5.0/NurPhoto_0.5.0_x64_en-US.msi) 14 MB
+  - macOS — [Apple Silicon (.dmg)](../../releases/download/nurphoto-v0.5.0/NurPhoto_0.5.0_aarch64.dmg) 14 MB
+  - Linux — [.deb](../../releases/download/nurphoto-v0.5.0/NurPhoto_0.5.0_amd64.deb) ·
+    [.rpm](../../releases/download/nurphoto-v0.5.0/NurPhoto-0.5.0-1.x86_64.rpm) 15 MB ·
+    [AppImage](../../releases/download/nurphoto-v0.5.0/NurPhoto_0.5.0_amd64.AppImage) 85 MB —
+    needs Ubuntu 24.04+ / glibc 2.39; install with `sudo apt install ./NurPhoto_0.5.0_amd64.deb`
 - **Source** — private
 
 <!-- screenshots: drop files in screenshots/nurphoto/ and uncomment
